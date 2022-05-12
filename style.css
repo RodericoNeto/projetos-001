@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 500px;
+    justify-content: space-between;
+    font-family: 'Readex Pro';
+    padding: 30px;
+    color: rgb(65, 65, 65);
+}
+
+.bloco-titulo{
+    background-color: rgb(111, 128, 255);
+    width: 400px;
+    padding: 30px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px rgba(66, 66, 66, 0.474);
+}
+
+.bloco {
+    background-color: rgb(201, 201, 201);
+    box-shadow: 3px 3px 8px rgba(66, 66, 66, 0.474);
+    border-radius: 20px;
+    width: 400px;
+    height: 120px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+input, button {
+    border-radius: 8px;
+    text-align: center;
+    height: 20px;
+    font-family: 'Readex Pro';
+    width: 60px;
+    font-weight: 500;
+}
+
+button {
+    color: white;
+    background-color: rgb(32, 60, 239);
+    height: 40px;
+    width: 110px;
+    box-shadow: 3px 3px 2px rgba(56, 56, 56, 0.515);
+}
+
+button:hover{
+    background-color: rgb(93, 114, 246);
+    box-shadow: 0px 0px 0px;
+}
+
+input:hover{
+    background-color: rgb(211, 211, 211);
+}
